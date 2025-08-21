@@ -1,4 +1,4 @@
-// @ts-check
+h// @ts-check
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import mwGadget from 'rollup-plugin-mediawiki-gadget';
@@ -19,7 +19,6 @@ export default defineConfig(({ command }) => {
       command === 'serve'
         ? {
             alias: {
-              'ext.gadget.HanAssist': 'hanassist',
               'ext.gadget.ilhpp': `${import.meta.dirname}/../ilhpp/src/index`,
               'ext.gadget.ilhpp-settings': `${import.meta.dirname}/src/index`,
               vue: `${import.meta.dirname}/server/mockup_vue`,
