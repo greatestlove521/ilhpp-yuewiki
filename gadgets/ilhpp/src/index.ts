@@ -5,7 +5,6 @@ import '../styles/links.less';
 import '../styles/popups_desktop.less';
 import '../styles/popups_mobile.less';
 
-import { batchConv } from 'ext.gadget.HanAssist';
 import {
   getPreferences,
   LinkMode,
@@ -19,7 +18,7 @@ import runDesktop from './index_desktop';
 import runMobile from './index_mobile';
 
 // Initialize
-mw.messages.set(batchConv(messages, mw.config.get('wgUserVariant')!));
+mw.messages.set(messages);
 const _ = getPreferences();
 
 // Deactivate if MF Visual editor is active, activate otherwise
