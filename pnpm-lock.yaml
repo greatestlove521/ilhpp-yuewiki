@@ -1398,9 +1398,6 @@ packages:
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
 
-  hanassist@4.4.5:
-    resolution: {integrity: sha512-Rhk5z44q4nlkQUWXxWWbL6K2x33fi9kFt4eHgn3hGWA0g8/UOIC0Dp5B4KwSkrB9ffQ8rF39JtC2qyV9QVZFIw==}
-
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
@@ -3478,17 +3475,6 @@ snapshots:
     optional: true
 
   graphemer@1.4.0: {}
-
-  hanassist@4.4.5:
-    dependencies:
-      jquery: 3.7.1
-      jsdom: 20.0.3
-      tslib: 2.8.1
-    transitivePeerDependencies:
-      - bufferutil
-      - canvas
-      - supports-color
-      - utf-8-validate
 
   has-flag@4.0.0: {}
 
