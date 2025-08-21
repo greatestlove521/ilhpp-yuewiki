@@ -1,7 +1,6 @@
 /// <reference types="requirejs" />
 import '../../../server/mockup_mw';
 import * as MobileStartup from '../../../server/mockup_mobile_startup';
-import * as HanAssist from 'hanassist';
 
 // Mockup mw.loader.using by redirecting to requirejs
 Object.defineProperty(window.mw, 'loader', {
@@ -15,11 +14,6 @@ Object.defineProperty(window.mw, 'loader', {
       });
     },
   },
-});
-
-// Re-export HanAssist as AMD module
-define('ext.gadget.HanAssist', [], () => {
-  return HanAssist;
 });
 
 define('mobile.startup', () => {
