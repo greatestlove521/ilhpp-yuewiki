@@ -1,11 +1,10 @@
 import { createMwApp, reactive, ref, h } from 'vue';
 import SettingsDialog from './SettingsDialog.vue';
 import { getPreferences, setPreferences } from 'ext.gadget.ilhpp';
-import { batchConv } from 'ext.gadget.HanAssist';
 import messages from '../messages.json';
 
 export function showSettingsDialog() {
-  mw.messages.set(batchConv(messages));
+  mw.messages.set(messages);
 
   const root = document.createElement('div');
   document.body.append(root);
