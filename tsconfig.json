@@ -18,9 +18,6 @@
       "ext.gadget.ilhpp-settings": [
         "./gadgets/ilhpp-settings/src/index",
       ],
-      "ext.gadget.HanAssist": [
-        "./node_modules/hanassist",
-      ],
     },
     "rootDir": ".",
     "outDir": "dist",
