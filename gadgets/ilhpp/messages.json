@@ -1,54 +1,15 @@
 {
-  "ilhpp-from": {
-    "hans": "来自$1$2",
-    "hant": "來自$1$2"
-  },
-  "ilhpp-wp": {
-    "hans": "维基百科",
-    "hant": "維基百科"
-  },
-  "ilhpp-more": {
-    "hans": "阅读更多内容",
-    "hant": "閱讀更多內容"
-  },
-  "ilhpp-cta": {
-    "hans": "中文维基百科暂无“$1”条目，但您可以帮助我们<a href=\"/w/index.php?title=$2&action=edit&redlink=1\">创建它</a>！",
-    "hant": "中文維基百科暫無「$1」條目，但您可以幫助我們<a href=\"/w/index.php?title=$2&action=edit&redlink=1\">建立它</a>！"
-  },
-  "ilhpp-settings": {
-    "hans": "设置",
-    "hant": "設定"
-  },
-  "ilhpp-settings-footer": {
-    "hans": "跨语言链接设置",
-    "hant": "跨語言連結設定"
-  },
-  "ilhpp-disam": {
-    "hans": "页面标题涉及多个主题。",
-    "hant": "頁面標題涉及多個主題。"
-  },
-  "ilhpp-disam-more": {
-    "hans": "查看相似页面",
-    "hant": "顯示類似的頁面"
-  },
-  "ilhpp-no-preview": {
-    "hans": "该页面暂无预览。",
-    "hant": "該頁面暫無預覽。"
-  },
-  "ilhpp-error-not-found": {
-    "hans": "该页面不存在。<br>您可以<a href=\"/w/index.php?title=$1&action=edit\">帮助我们修复该问题</a>。",
-    "hant": "該頁面不存在。<br>您可以<a href=\"/w/index.php?title=$1&action=edit\">幫助我們修復該問題</a>。"
-  },
-  "ilhpp-error": {
-    "hans": "显示此预览时出现问题。",
-    "hant": "顯示此頁面預覽時出現問題。"
-  },
-  "ilhpp-goto": {
-    "hans": "前往该页面",
-    "hant": "前往該頁面"
-  },
-  "ilhpp-close": {
-    "hans": "关闭",
-    "hant": "關閉"
-  }
+  "ilhpp-from": "來自$1$2",
+  "ilhpp-wp": "維基百科",
+  "ilhpp-more": "閱讀更多內容",
+  "ilhpp-cta": "中文維基百科暫無「$1」條目，但您可以幫助我們<a href=\"/w/index.php?title=$2&action=edit&redlink=1\">建立它</a>！",
+  "ilhpp-settings": "設定",
+  "ilhpp-settings-footer": "跨語言連結設定",
+  "ilhpp-disam": "頁面標題涉及多個主題。",
+  "ilhpp-disam-more": "顯示類似的頁面",
+  "ilhpp-no-preview": "該頁面暫無預覽。",
+  "ilhpp-error-not-found": "該頁面不存在。<br>您可以<a href=\"/w/index.php?title=$1&action=edit\">幫助我們修復該問題</a>。",
+  "ilhpp-error": "顯示此頁面預覽時出現問題。",
+  "ilhpp-goto": "前往該頁面",
+  "ilhpp-close": "關閉"
 }
