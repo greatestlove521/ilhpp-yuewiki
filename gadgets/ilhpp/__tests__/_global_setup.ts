@@ -21,9 +21,6 @@ await build(
           amd: {
             id: 'ext.gadget.ilhpp',
           },
-          globals: {
-            'ext.gadget.HanAssist': 'mw.libs.HanAssist',
-          },
         },
       },
     },
