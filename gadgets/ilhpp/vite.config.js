@@ -19,7 +19,6 @@ export default defineConfig(({ command }) => {
       command === 'serve'
         ? {
             alias: {
-              'ext.gadget.HanAssist': 'hanassist',
               'ext.gadget.ilhpp': `${import.meta.dirname}/src/index`,
               'ext.gadget.ilhpp-settings': `${import.meta.dirname}/../ilhpp-settings/src/index`,
               vue: `${import.meta.dirname}/../ilhpp-settings/server/mockup_vue`,
