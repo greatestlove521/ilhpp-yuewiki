@@ -1,5 +1,5 @@
 # 跨语言链接增强工具（ILH++ / Internal Link Helper++）
-本小工具为中文维基百科的[跨语言链接](https://zh.wikipedia.org/wiki/Template:Internal_link_helper)增强工具。功能简介：
+本小工具为中文维基百科的[跨语言链接](https://zh.wikipedia.org/wiki/Template:Internal_link_helper)增强工具，经修改后适用于粤语维基百科。功能简介：
 1. 弹出提示，支持显示外文条目文字预览；
 2. 外观契合 MediaWiki 视觉风格，和 [Popups 扩展](https://www.mediawiki.org/wiki/Extension:Popups)保持一致；
 3. 专门适配移动版界面；
